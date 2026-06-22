@@ -1,0 +1,1 @@
+print("N35v17 Bot cargado")
