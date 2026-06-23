@@ -1,0 +1,7 @@
+N35v17CaveWindow < MainWindow
+  text: N35v17 Cave Helper
+  size: 500 300
+
+  Label
+    anchors.centerIn: parent
+    text: Cave Module Loaded

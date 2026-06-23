@@ -1,0 +1,7 @@
+N35v17ToolsWindow < MainWindow
+  text: N35v17 Tools
+  size: 500 300
+
+  Label
+    anchors.centerIn: parent
+    text: Tools Module Loaded

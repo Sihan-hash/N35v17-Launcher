@@ -1,0 +1,82 @@
+N35v17Window < MainWindow
+  text: N35v17 Bot
+  size: 420 330
+
+  Label
+    id: title
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 8
+    text: N35v17 Control Center
+    color: white
+    font: verdana-11px-rounded
+
+  Button
+    id: healthBtn
+    anchors.top: title.bottom
+    anchors.left: parent.left
+    margin-top: 20
+    margin-left: 20
+    width: 170
+    height: 35
+    text: Health System
+
+  Button
+    id: runesBtn
+    anchors.top: title.bottom
+    anchors.right: parent.right
+    margin-top: 20
+    margin-right: 20
+    width: 170
+    height: 35
+    text: Rune System
+
+  Button
+    id: pvpBtn
+    anchors.top: healthBtn.bottom
+    anchors.left: parent.left
+    margin-top: 12
+    margin-left: 20
+    width: 170
+    height: 35
+    text: PvP Tools
+
+  Button
+    id: toolsBtn
+    anchors.top: runesBtn.bottom
+    anchors.right: parent.right
+    margin-top: 12
+    margin-right: 20
+    width: 170
+    height: 35
+    text: Tools
+
+  Button
+    id: caveBtn
+    anchors.top: pvpBtn.bottom
+    anchors.left: parent.left
+    margin-top: 12
+    margin-left: 20
+    width: 170
+    height: 35
+    text: Cave Helper
+
+  Button
+    id: settingsBtn
+    anchors.top: toolsBtn.bottom
+    anchors.right: parent.right
+    margin-top: 12
+    margin-right: 20
+    width: 170
+    height: 35
+    text: Settings
+
+  Button
+    id: closeButton
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    margin-bottom: 10
+    margin-right: 10
+    width: 80
+    height: 24
+    text: Close

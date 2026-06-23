@@ -1,0 +1,61 @@
+N35v17SettingsWindow < MainWindow
+  text: N35v17 Settings
+  size: 520 330
+
+  Label
+    id: title
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 10
+    text: N35v17 Config Center
+    color: white
+    font: verdana-11px-rounded
+
+  Label
+    id: status
+    anchors.top: title.bottom
+    anchors.left: parent.left
+    margin-top: 20
+    margin-left: 20
+    text: Status: Ready
+    color: #00ff88
+
+  Button
+    id: saveBtn
+    anchors.top: status.bottom
+    anchors.left: parent.left
+    margin-top: 20
+    margin-left: 20
+    width: 150
+    height: 30
+    text: Save Config
+
+  Button
+    id: resetBtn
+    anchors.top: saveBtn.bottom
+    anchors.left: parent.left
+    margin-top: 10
+    margin-left: 20
+    width: 150
+    height: 30
+    text: Reset Config
+
+  Button
+    id: backupBtn
+    anchors.top: resetBtn.bottom
+    anchors.left: parent.left
+    margin-top: 10
+    margin-left: 20
+    width: 150
+    height: 30
+    text: Backup Info
+
+  Button
+    id: closeButton
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    margin-bottom: 10
+    margin-right: 10
+    width: 80
+    height: 24
+    text: Close

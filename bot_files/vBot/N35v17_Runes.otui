@@ -1,0 +1,7 @@
+N35v17RunesWindow < MainWindow
+  text: N35v17 Runes
+  size: 500 300
+
+  Label
+    anchors.centerIn: parent
+    text: Rune Module Loaded

@@ -1,0 +1,7 @@
+N35v17PvPWindow < MainWindow
+  text: N35v17 PvP Tools
+  size: 500 300
+
+  Label
+    anchors.centerIn: parent
+    text: PvP Module Loaded

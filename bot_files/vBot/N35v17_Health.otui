@@ -1,0 +1,7 @@
+N35v17HealthWindow < MainWindow
+  text: N35v17 Health
+  size: 500 300
+
+  Label
+    anchors.centerIn: parent
+    text: Health Module Loaded
