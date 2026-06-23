@@ -2,5 +2,7 @@ Module
   name: n35v17bot
   description: N35v17 Bot
   author: N35v17
+  autoload: true
+  autoload-priority: 999
   sandboxed: false
   scripts: [ main ]
